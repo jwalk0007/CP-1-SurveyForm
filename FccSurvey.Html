@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" href="FccSurvey.css"/>
+<title>fccSurveyForm</title>
+  </head>
+
+  <body>
+    <div class="background-image">
+
+      <h1>
+        How did we do?
+      </h1>
+
+      <h2>
+   Thank you so much for dining with us!
+    </h2>
+    <h3>Please take a moment to tell us about your experience.</h3>
+    <br/>
+  
+  <form id="survey-form">        
+    
+    <label id="number-label">How many in your party?</label>
+    <input 
+    id="number" 
+    type="number" 
+    min="1" max="20" 
+    placeholder="Number of diners in your group"
+    required/>
+    
+    <label id="name-label">What did you have?</label>
+    <input
+    id="name"
+    type="text"
+    placeholder="Please choose a dish to review"
+       required/>
+
+         <label>
+           How was your food?
+           <select 
+           id="dropdown"
+           name="grade">
+           <option value="">(select one)</option>
+          <option value="1">Great</option>
+          <option value="2">Good</option>
+          <option value="3">Ok</option>
+          <option value="4">Not that good</option>
+        </select>
+      </label>
+      
+      <label><input 
+        type="checkbox" 
+        name="like-dislike"
+        value="like"
+        class="inline" />
+        I would recommend this restaurant.
+      </label>
+    </section>
+      
+          <label><input 
+            type="checkbox" 
+            name="like-dislike" 
+            value="dislike"
+            class="inline" />
+            I would recommend the meal I ordered.
+          </label>
+          <br/>
+          <br/>
+          
+          <p class="service">
+            How was our service?            <label><input
+              type="radio"
+              name="terms"
+              class="inline"
+              value="accept"
+              required/>Great!
+            </label>
+            
+            <label><input
+              type="radio"
+              name="terms"
+              class="inline"
+              value="reality"
+              required/>Not so great.
+            </label>
+          </p>
+
+          <br/>
+
+          <label>Any additional comments?
+            <textarea 
+          name="explain" 
+          rows="3" 
+          cols="40" 
+          placeholder="Please share any feedback to help us improve your experience"></textarea>
+        </label>
+
+        <br/>
+
+        <label id="email-label">Email</label>
+        <input
+        id="email"
+        type="email"
+        placeholder="Please share your email to stay in touch"
+        required/>
+        
+        <label>
+          <input 
+          id="submit"
+          type="submit" 
+          value="Submit" />
+        </label>
+      
+      </form>
+
+        <p class="thank-you">
+          Thank you for joining us. Please come again!        </p>
+        </div>
+    </body>
+</html>
+
