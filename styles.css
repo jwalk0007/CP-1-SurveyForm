@@ -33,6 +33,10 @@ label {
   margin: 1.5rem auto .5rem;
 }
 
+#number {
+  width: 220px;
+}
+
 input {
   width: 60%;
   text-align: center;
