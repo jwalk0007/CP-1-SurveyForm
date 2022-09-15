@@ -3,7 +3,7 @@
 }
 
 .background-image {
-  background-image: url(/images/history-of-table-setting.jpg);
+  background-image: url(./images/history-of-table-setting.jpg);
   background-size: 85%;
   background-attachment: fixed;
   background-position: center;
