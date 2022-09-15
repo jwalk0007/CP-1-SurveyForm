@@ -80,7 +80,7 @@ textarea {
 .background-image {
   background-image: url(./images/history-of-table-setting.jpg);
   background-size: contain;
-  background-attachment: fixed;
+  background-attachment: sticky;
   background-position: center;
   background-repeat: no-repeat;
   max-height: 65%;
