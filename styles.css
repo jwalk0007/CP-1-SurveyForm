@@ -5,6 +5,7 @@ html,
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  max-height: 65%;
 }
 
 body {
