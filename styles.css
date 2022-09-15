@@ -78,4 +78,14 @@ textarea {
     font-size: .65rem;
   }
 
+  html,
+.background-image {
+  background-image: url(./images/history-of-table-setting.jpg);
+  background-size: 60%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 65%;
+}
+
 }
