@@ -8,26 +8,23 @@ html,
 }
 
 body {
-  width: 100%;
-  height: 100%;
-
-
-  
   font-family: Tahoma;
   font-size: 16px;
+  height: 100%;
   text-align: center;
+  width: 100%;
 }
 
 h1 {
-  font-size: 3rem;
   color: red;
-  -webkit-text-stroke: 2px navy;
+  font-size: 3rem;
   padding-top: 1em;
+  -webkit-text-stroke: 2px navy;
 }
 
 form {
-  width: 60vw;
   margin: auto;
+  width: 60vw;
 }
 
 label {
@@ -40,13 +37,13 @@ label {
 }
 
 input {
-  width: 60%;
   text-align: center;
+  width: 60%;
 }
 
 input[type="submit"]  {
+  margin: 10%;
   width: 50%;
-  margin: 10%
 }
 
 input[type="submit"]:hover {
@@ -58,10 +55,10 @@ input[type="submit"]:hover {
 }
 
 textarea {
-  width: 90%;
-  text-align: center;
   font-family: Tahoma;
   font-size: .9rem;
+  text-align: center;
+  width: 90%;
 }
 
 #email {
@@ -73,19 +70,25 @@ textarea {
 }
 
 @media screen and (max-width: 400px) {
+
   body {
     font-size: .75rem;
   }
+
+  h1 {
+    font-size: 3em;
+  }
+
   input, select {
     font-size: .50rem;
   }
 
 .background-image {
-  background-image: url(./images/history-of-table-setting.jpg);
-  background-size: contain;
   background-attachment: sticky;
+  background-image: url(./images/history-of-table-setting.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
   max-height: 65%;
 }
 

@@ -3,122 +3,143 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" href="styles.css"/>
-<title>RestaurantSurveyForm</title>
-</head>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>RestaurantSurveyForm</title>
+  </head>
+  <!--end head-->
 
-<div class="background-image">
-      <body>
-      
+<body>
+  <div class="background-image">
+    <section>
+
       <h1>
-        How did we do?
+      How did we do?
       </h1>
-      
       <h2>
-   Thank you so much for dining with us!
-    </h2>
-    <h3>Please take a moment to tell us about your experience.</h3>
-    <br/>
-  
-  <form id="survey-form" action="mailto:jwalk0007@gmail.com">        
-    
+      Thank you so much for dining with us!
+      </h2>
+      <h3>
+      Please take a moment to tell us about your experience.
+      </h3>
+      <!--end titles-->
+
+      <br/>
+
+  <form id="survey-form" action="">
+
     <label id="number-label">How many in your party?</label>
-    <input 
-    id="number" 
-    type="number" 
-    min="1" max="20" 
-    placeholder="Number of diners in your group"
-    required/>
-    
+      <input 
+      id="number" 
+      type="number" 
+      min="1" max="20" 
+      placeholder="Number of diners in your group"
+      required/>
+      <!--end "how many diners"-->
+
     <label id="name-label">What did you have?</label>
-    <input
-    id="name"
-    type="text"
-    placeholder="Please choose a dish to review"
-       required/>
-       
-         <label>
-           How was your food?
-           <select 
-           id="dropdown"
-           name="grade">
-           <option value="">(select one)</option>
-          <option value="1">Great</option>
-          <option value="2">Good</option>
-          <option value="3">Ok</option>
-          <option value="4">Not that good</option>
+      <input
+      id="name"
+      type="text"
+      placeholder="Please choose a dish to review" required/>
+      <!--end "meal"-->
+
+    <label>
+      How was your food?
+       <select 
+        id="dropdown"
+        name="grade">
+        <option value="">(select one)</option>
+        <option value="1">Great</option>
+        <option value="2">Good</option>
+        <option value="3">Ok</option>
+        <option value="4">Not that good</option>
         </select>
       </label>
-      
-      <label><input 
-        type="checkbox" 
-        name="like-dislike"
-        value="like"
-        class="inline" />
-        I would recommend this restaurant.
-      </label>
-    </section>
-    
+      <!--end food rating-->
+
     <label><input 
       type="checkbox" 
-            name="like-dislike" 
-            value="dislike"
-            class="inline" />
-            I would recommend the meal I ordered.
-          </label>
-          <br/>
-          <br/>
-          
-          <p class="service">
-            How was our service?            <label><input
-              type="radio"
-              name="terms"
-              class="inline"
-              value="accept"
-              required/>Great!
-            </label>
-            
-            <label><input
-              type="radio"
-              name="terms"
-              class="inline"
-              value="reality"
-              required/>Not so great.
-            </label>
-          </p>
+      name="like-dislike"
+      value="like"
+      class="inline" />
+      I would recommend this restaurant.
+      </label>
+    <label><input 
+      type="checkbox" 
+      name="like-dislike" 
+      value="dislike"
+      class="inline" />
+      I would recommend the meal I ordered.
+      </label>
+      <!--end checkboxes-->
 
-          <br/>
+      <br/>
+      <br/>
+      
+    <p class="service">
+      How was our service?
+    <label><input
+      type="radio"
+      name="terms"
+      class="inline"
+      value="accept"
+      required/>Great!
+      </label>
+    <label><input
+      type="radio"
+      name="terms"
+      class="inline"
+      value="reality"
+      required/>Not so great.
+      </label>
+      <!--end radio buttons-->
 
-          <label>Any additional comments?
-            <textarea 
-          name="explain" 
-          rows="3" 
-          cols="40" 
-          placeholder="Please share any feedback to help us improve your experience"></textarea>
-        </label>
+      </p>
+      <!--end service-->
+
+      </section>
+      <!--end questions-->
 
         <br/>
 
-        <label id="email-label">Email</label>
-        <input
-        id="email"
-        type="email"
-        placeholder="Please share your email to stay in touch"
-        required/>
-        
-        <label>
-          <input 
-          id="submit"
-          type="submit" 
-          value="Submit" />
-        </label>
-        
+    <label>Any additional comments?
+      <textarea 
+      name="explain" 
+      rows="3" 
+      cols="40" 
+      placeholder="Please share any feedback to help us improve your experience"></textarea>
+      </label>
+      <!--end comments-->
+
+      <br/>
+
+    <label id="email-label">Email</label>
+      <input
+      id="email"
+      type="email"
+      placeholder="Please share your email to stay in touch"
+      required/>
+      <!--end email-->
+
+    <label>
+      <input 
+      id="submit"
+      type="submit" 
+      value="Submit" />
+      </label>
+      <!--end submit-->
+
       </form>
-      
+      <!--end form-->
+
       <p class="thank-you">
-        Thank you for joining us. Please come again!        </p>
-      </div>
-      </body>
-      </html>
-      
-      
+      Thank you for joining us. Please come again!</p>
+      <!--end closing text-->
+
+    </div>
+    <!--end background image-->
+
+  </body>
+  <!--end body-->
+
+</html>
